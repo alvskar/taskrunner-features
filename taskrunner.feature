@@ -44,7 +44,7 @@ Feature: Repeating and Scheduled Event Items
  Scenario: User wants to categorize certain events as habits
  # Habits are going to be used by the energy system, which is why we can't just use basic lists
    When the user adds a new event
-   They can classify that event as a habit
+   Then the user can classify that event as a habit
    # By means of checkbox
  
  Scenario: User wants to push off habits by a month
